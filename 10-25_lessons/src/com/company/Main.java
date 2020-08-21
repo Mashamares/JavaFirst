@@ -12,6 +12,9 @@ public class Main {
         Person vlad = new Person(180);
         System.out.println(vlad.height);
 
+        Student freshman = new Student(160,"Freshman", 3);
+        freshman.tell();
+        //System.out.println("Student's course is "+ freshman.course);
 
     }
 }
